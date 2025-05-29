@@ -13,11 +13,11 @@ if (!isset($_SESSION['user']) || $_SESSION['user']['role'] !== 'admin') {
     exit;
 }
 
-$controller = new CrimeController();
+$controller = new CrimeController($pdo);
 
 if (isset($_GET['id'])) {
     $controller->deleteCrime($_GET['id']);
-    header("Location: ../views/crime_list.php?msg=deleted");
+    header("Location: ../views/crimes.php?msg=deleted");
     exit;
 } else {
     echo "Crime ID not specified.";

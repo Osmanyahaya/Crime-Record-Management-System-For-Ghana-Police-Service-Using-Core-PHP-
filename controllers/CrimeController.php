@@ -164,7 +164,8 @@ public function updateCrime($data)
 
 
 public function deleteCrime($id)
-{
+{    
+    $this->pdo->prepare("DELETE FROM victims WHERE crime_id = ?")->execute([$id]);
     $stmt = $this->pdo->prepare("DELETE FROM crimes WHERE id = ?");
     $stmt->execute([$id]);
 }
@@ -172,7 +173,7 @@ public function deleteCrime($id)
 
 }
 
-/*// 🔁 Controller dispatcher:
+/*// 
 $controller = new CrimeController($pdo);
 
 $action = $_GET['action'] ?? '';
