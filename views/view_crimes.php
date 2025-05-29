@@ -1,0 +1,3 @@
+<?php
+// View Crimes functionality
+?>

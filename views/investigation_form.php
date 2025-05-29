@@ -1,0 +1,3 @@
+<?php
+// Investigation Form functionality
+?>
