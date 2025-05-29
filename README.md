@@ -57,7 +57,7 @@ password: 1234
 📞 Contact
 For feedback, contributions, or support, feel free to reach out:
 
-Name: Yahaya
-Email: [your-email@example.com]
-Phone: +233XXXXXXXXX
-GitHub: github.com/yourusername
+Name: Osman Yahaya
+Email: yahaya.info@gmail.com
+Phone: +233243856882
+GitHub: github.com/Osmanyahay
