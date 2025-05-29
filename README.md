@@ -1,0 +1,2 @@
+# Crime-Record-Management-System-For-Ghana-Police-Service-Using-Core-PHP-
+The Ghana Police Crime Record System is a secure web-based application designed to help the Ghana Police Service efficiently manage and track crime reports, investigations, and case assignments. The system ensures data confidentiality, user accountability, and streamlined communication between police officers, administrators, and CID units.
